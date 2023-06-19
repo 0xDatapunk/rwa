@@ -13,7 +13,7 @@
     The top token per week itself might not change, given the usage of WETH in a lot of transactions, but the count/sum values would be quite smaller.
 
 
-- A short description of a system that offers these outputs as an API for multiple time frames (1D, 1W, 1M, etc.)
+- How to offer these outputs as an API for multiple time frames (1D, 1W, 1M, etc.)
 
     As part of the medallion architecture, a gold table is to be stored with top transferred tokens with multiple time frames. Depending on performance requirement, this table can potentially be used to serve the API call. 
 
